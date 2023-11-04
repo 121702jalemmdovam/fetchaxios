@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 300px;
+    height: 400px;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    #companyname{
+        width: 200px;
+        height: 40px;
+        border-radius: 7px;
+        margin-top: 20px;
+    }
+    #contactname{
+        width: 200px;
+        height: 40px;
+        border-radius: 7px;
+    }
+    #contacttitle{
+        width: 200px;
+        height: 40px;
+        border-radius: 7px;
+    }
+    #idd{
+        width: 200px;
+        height: 40px;
+        border-radius: 7px;
+    }
+    #btn{
+        width: 200px;
+        height: 40px;
+        border-radius: 7px;
+        border: none;
+        background-color: green;
+        font-size: 16px;
+        cursor: pointer;
+        &:hover{
+            background-color: black;
+            color: white;
+        }
+    }
+
+}
